@@ -39,7 +39,7 @@ body {
 }
 
 .wave:nth-of-type(2) {
-  background: url("../wave-blue.png") repeat-x;
+  background: url("../images/wave-blue.png") repeat-x;
   animation: wave 16s cubic-bezier(0.36, 0.45, 0.63, 0.53) -0.125s infinite, swell 16s ease -1.25s infinite;
 }
 
