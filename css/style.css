@@ -193,6 +193,10 @@ a {
   color: inherit;
 }
 
+.span-header {
+  font-size: 13px;
+}
+
 .landing-section {
   margin-top: 6%;
   padding: 24pt 0; 
