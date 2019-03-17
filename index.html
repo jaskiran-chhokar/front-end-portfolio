@@ -5,20 +5,22 @@
 	<meta class="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<title>Jaskiran's Front End Portfolio</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+	 crossorigin="anonymous">
 	<link rel='stylesheet' href='css/style.css' />
 </head>
 
 <body>
 	<!-- navbar -->
 	<div class="navbar navbar--extended">
-		<nav class="nav__mobile"></nav>
+		<nav class="nav-mobile"></nav>
 		<div class="container">
 			<div class="navbar-inner">
 				<a href="index.html" class="logo">
 					Jaskiran.
 					<span class="span-header">/ webdev portfolio > </span>
 				</a>
-				<nav class="navbar__menu">
+				<nav class="navbar-menu">
 					<ul>
 						<li>
 							<a href="#home">Home</a>
@@ -37,7 +39,7 @@
 						</li>
 					</ul>
 				</nav>
-				<div class="navbar__menu-mob">
+				<div class="navbar-menu-mob">
 					<a href="" id='toggle'>
 						<svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
 							<path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
@@ -59,11 +61,18 @@
 				<div class="container">
 					<div class="content">
 						<div class="content-inner" id='navConverter'>
-							<h1 id="promo-header" class="about-title"><strong>Hi, I'm Jaskiran - a front end developer</strong></h1>
+							<h1 id="promo-header" class="about-title">
+								<strong>Hi, I'm Jaskiran - a front end developer</strong>
+							</h1>
 							<p class="about-text">I'm a front-end web developer based in Toronto, Canada. I'm passionate about creating interactive, well-designed,
 								and collaborative web projects.
 							</p>
-							</p>
+							<a href="https://www.linkedin.com/in/jaskiranchhokar/" target="_blank">
+								<i class="fab fa-linkedin-in fa-2x linkedin-icon"></i>
+							</a>
+							<a href="https://github.com/jaskiran-chhokar" target="_blank">
+								<i class="fab fa-github fa-2x github-icon"></i>
+							</a>
 						</div>
 
 						<div id="promo-svg" class="content-inner" style="width: 500px;">
@@ -331,19 +340,21 @@
 	<div id="portfolio" class="portfolio"></div>
 	<div class="steps landing-section">
 		<div class="container">
-			<h1 class="projects-header"><strong>My Recent Projects.</strong></h1>
+			<h1 class="projects-header">
+				<strong>My Recent Projects.</strong>
+			</h1>
 			<p class="projects-para">I am currently working as a Front-End Developer at a web development company called Web On Demand. My main role revolves
 				around building / designing out interactive websites for the end-user at hand (primarily using HTML, CSS, and JavaScript).
 				Feel free to check out my projects down below:
 			</p>
 		</div>
 		<div class="container">
-			<div class="steps__inner">
+			<div class="steps-inner">
 				<div class="step">
-					<div class="step__media">
-				            <a href="http://remakeink.us/" target="_blank">
-						<img src="images/drexel-theme.JPG" width="500" height="373" class="step__image">
-				            </a>
+					<div class="step-media">
+						<a href="http://remakeink.us/" target="_blank">
+							<img src="images/drexel-theme.JPG" width="500" height="373" class="step-image">
+						</a>
 					</div>
 					<h4>Shopify Drexel Theme Clone</h4>
 					<p class="projects-subtext">
@@ -365,10 +376,10 @@
 					</p>
 				</div>
 				<div class="step">
-					<div class="step__media">
-				            <a href="http://evamaria.ca/" target="_blank">
-						<img src="images/eva-maria.JPG" width="500" class="step__image">
-				            </a>
+					<div class="step-media">
+						<a href="http://evamaria.ca/" target="_blank">
+							<img src="images/eva-maria.JPG" width="500" class="step-image">
+						</a>
 					</div>
 					<h4>Retail Agency Website Mockup</h4>
 					<p class="projects-subtext">
@@ -387,12 +398,12 @@
 					</p>
 				</div>
 			</div>
-			<div class="steps__inner">
-				<div class="step">
-					<div class="step__media">
-					    <a href="#" target="_blank">
-						<img src="images/login-screen.JPG" width="500" height="380" class="step__image">
-					    </a>
+			<div class="steps-inner">
+				<div class="step step-hidden">
+					<div class="step-media">
+						<a href="http://www.webtml.com/login.aspx" target="_blank">
+							<img src="images/login-screen.JPG" width="500" height="380" class="step-image">
+						</a>
 					</div>
 					<h4>Login System for the WebTML CMS</h4>
 					<p class="projects-subtext">
@@ -407,14 +418,14 @@
 					</p>
 					<p class="projects-subtext">
 						<strong>Live Demo:</strong>
-						<a class="projects-link" target="_blank" href="#">#</a>
+						<a class="projects-link" target="_blank" href="http://www.webtml.com/login.aspx">http://webtml.com/login.aspx</a>
 					</p>
 				</div>
-				<div class="step">
-					<div class="step__media">
-				           <a href="#" target="_blank"> 
-						<img src="images/welcome-email.JPG" width="500" class="step__image">
-					   </a>
+				<div class="step step-hidden">
+					<div class="step-media">
+						<a href="https://system.webondemand.com/" target="_blank">
+							<img src="images/welcome-email.JPG" width="500" class="step-image">
+						</a>
 					</div>
 					<h4>HTML Email Designs</h4>
 					<p class="projects-subtext">
@@ -431,16 +442,16 @@
 					</p>
 					<p class="projects-subtext">
 						<strong>Live Demo:</strong>
-						<a class="projects-link" target="_blank" href="#">#</a>
+						<a class="projects-link" target="_blank" href="https://system.webondemand.com/welcome_email">https://system.webondemand.com</a>
 					</p>
 				</div>
 			</div>
-			<div class="steps__inner">
-				<div class="step">
-					<div class="step__media">
-					    <a href="#" target="_blank" >
-						<img src="images/rebox.JPG" width="500" height="332" class="step__image">
-					    </a>
+			<div class="steps-inner">
+				<div class="step step-hidden">
+					<div class="step-media">
+						<a href="https://www.rebox.com/" target="_blank">
+							<img src="images/rebox.JPG" width="500" height="332" class="step-image">
+						</a>
 					</div>
 					<h4>Landing Page for Website Resellers</h4>
 					<p class="projects-subtext">
@@ -451,12 +462,12 @@
 						<strong>Code Technologies:</strong> JavaScript ES6, HTML5, CSS3, Bootstrap 4, and Git for version control</p>
 					<p class="projects-subtext">
 						<strong>Live Demo:</strong>
-						<a class="projects-link" target="_blank" href="#">#</a>
+						<a class="projects-link" target="_blank" href="http://www.rebox.com/">http://www.rebox.com/</a>
 					</p>
 				</div>
-				<div class="step">
-					<div class="step__media">
-						<img src="images/client.jpeg" width="500" class="step__image">
+				<div class="step step-hidden">
+					<div class="step-media">
+						<img src="images/client.jpeg" width="500" class="step-image">
 					</div>
 					<h4>Client Manager Application</h4>
 					<p class="projects-subtext">
@@ -475,12 +486,12 @@
 					</p>
 				</div>
 			</div>
-			<div class="steps__inner">
-				<div class="step">
-					<div class="step__media">
-					    <a href="http://appsite.space/" target="_blank">
-						<img src="images/appsite.JPG" width="500" class="step__image">
-					    </a>
+			<div class="steps-inner">
+				<div class="step step-hidden">
+					<div class="step-media">
+						<a href="http://appsite.space/" target="_blank">
+							<img src="images/appsite.JPG" width="500" class="step-image">
+						</a>
 					</div>
 					<h4>Landing Page for App Developers</h4>
 					<p class="projects-subtext">
@@ -497,9 +508,9 @@
 						<a class="projects-link" target="_blank" href="http://appsite.space/">http://appsite.space/</a>
 					</p>
 				</div>
-				<div class="step">
-					<div class="step__media">
-						<img src="images/contactmanager.jpeg" width="500" class="step__image">
+				<div class="step step-hidden">
+					<div class="step-media">
+						<img src="images/contactmanager.jpeg" width="500" class="step-image">
 					</div>
 					<h4>Contact Manager Application</h4>
 					<p class="projects-subtext">
@@ -517,16 +528,20 @@
 					</p>
 				</div>
 			</div>
+			<div class="button-container">
+				<button class="button">See More Projects?</button>
+			</div>
 		</div>
 	</div>
 	<!-- skills -->
-	<div id="skills" class="expanded landing-section">
+	<img src="images/wave-grey.png" height="50" style="position:relative; top: 10px; ">
+	<div id="skills" class="expanded landing-section" style="margin-top: 0; background: #f7f7f7; padding-top: 4%; padding-bottom: 4%;">
 		<div class="container">
-			<div class="expanded__inner">
-				<div class="expanded__media">
+			<div class="expanded-inner">
+				<div class="expanded-media">
 					<img src="./images/frameworks.svg" class="expanded-image">
 				</div>
-				<div class="expanded__content">
+				<div class="expanded-content">
 					<h2 class="expanded-title">My Skills. </h2>
 					<p class="expanded-text">
 						<strong>Front-End Devlopment:</strong> JavaScript (ES5 - ES6), HTML5, CSS3 (preprocessors including: Less, Sass), jQuery, React,
@@ -542,14 +557,15 @@
 			</div>
 		</div>
 	</div>
+	<img src="images/wave-grey2.png" height="50" style="position: relative; top: -10px;">
 	<!-- codepen -->
-	<div id="codepen" class="expanded landing-section">
+	<div id="codepen" class="expanded">
 		<div class="container">
-			<div class="expanded__inner">
-				<div class="expanded__media">
+			<div class="expanded-inner">
+				<div class="expanded-media">
 					<img src="./images/designer.svg" class="expanded-image">
 				</div>
-				<div class="expanded__content">
+				<div class="expanded-content">
 					<h2 class="expanded-title">Check out my Codepen</h2>
 					<p class="expanded-text">If you'd like to take a look at some of my mini-projects involving the use of animations, HTML Canvas, and various other
 						JavaScript libraries; then, click the link down below to visit my Codepen Portfolio! </p>
@@ -559,13 +575,14 @@
 		</div>
 	</div>
 	<!-- contact -->
-	<div id="contact" class="expanded landing-section">
+	<img src="images/wave-grey.png" height="50" style="position:relative; top: 55px;">
+	<div id="contact" class="expanded" style="background:#f7f7f7; position:relative; top: 45px;">
 		<div class="container">
-			<div class="expanded__inner">
-				<div class="expanded__media">
+			<div class="expanded-inner">
+				<div class="expanded-media">
 					<img src="./images/contact.svg" class="expanded-image">
 				</div>
-				<div class="expanded__content">
+				<div class="expanded-content">
 					<h2 class="expanded-title">Let's Talk.</h2>
 					<p class="expanded-text">If you're interested in working together on a project, or have any further questions, the best way to reach me is by
 						email. </p>
@@ -575,50 +592,53 @@
 		</div>
 	</div>
 	<!-- footer -->
+	<img src="images/wave-dark.png" height="50" style="position:relative; top: 10px; width:100%;">
 	<div class="footer footer-dark">
 		<div class="container">
-			<div class="footer__inner">
-				<a href="index.html" class="footer__textLogo">Jaskiran Chhokar</a>
-				<div class="footer__data">
-					<div class="footer__data__item">
+			<div class="footer-inner">
+				<a href="index.html" class="footer-textLogo">Jaskiran Chhokar</a>
+				<div class="footer-data">
+					<div class="footer-data-item">
 						<div class="footer-row">
 							Visit my
-							<a href="https://github.com/jaskiran-chhokar" target="_blank" class="footer__link">GitHub Account</a>
+							<a href="https://github.com/jaskiran-chhokar" target="_blank" class="footer-link">GitHub Account</a>
 						</div>
 						<div class="footer-row">
 							Contact me on
-							<a href="https://www.linkedin.com/in/jaskiranchhokar/" target="_blank" class="footer__link">Linkedin</a>
+							<a href="https://www.linkedin.com/in/jaskiranchhokar/" target="_blank" class="footer-link">Linkedin</a>
 						</div>
 					</div>
-					<div class="footer__data__item">
+					<div class="footer-data-item">
 						<div class="footer-row">Take a look at my
-							<a href="https://codepen.io/jaskiranchhokar/" target="_blank" class="footer__link">Codepen Portfolio</a>
+							<a href="https://codepen.io/jaskiranchhokar/" target="_blank" class="footer-link">Codepen Portfolio</a>
 						</div>
 						<div class="footer-row">Contact me at
-							<a href="mailto:jaskiranchhokar@gmail.com" target="_blank" class="footer__link">jaskiranchhokar@gmail.com</a>
+							<a href="mailto:jaskiranchhokar@gmail.com" target="_blank" class="footer-link">jaskiranchhokar@gmail.com</a>
 						</div>
 					</div>
-					<div class="footer__data__item">
+					<div class="footer-data-item">
 						<div class="footer-row">
-							<a href="#home" class="footer__link">Home</a>
+							<a href="#home" class="footer-link">Home</a>
 						</div>
 						<div class="footer-row">
-							<a href="#portfolio" class="footer__link">Projects</a>
+							<a href="#portfolio" class="footer-link">Projects</a>
 						</div>
 						<div class="footer-row">
-							<a href="#skills" class="footer__link">Skills</a>
+							<a href="#skills" class="footer-link">Skills</a>
 						</div>
 						<div class="footer-row">
-							<a href="#codepen" class="footer__link">Codepen</a>
+							<a href="#codepen" class="footer-link">Codepen</a>
 						</div>
 						<div class="footer-row">
-							<a href="#contact" class="footer__link">Contact</a>
+							<a href="#contact" class="footer-link">Contact</a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<script src='js/app.min.js'></script>
+	</div>
+	<script src='js/app.min.js'></script>
+	<script src='js/main.js'></script>
 </body>
 
 </html>
