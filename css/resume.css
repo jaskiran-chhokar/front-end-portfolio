@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,600");
+
+html, body {
+    margin: 0; 
+    box-sizing: border-box;
+    background-color: #f7f7f7; 
+}
+
+h1, h2, h3, h4, h5, h6, p, li, a {
+    font-family: 'Raleway', sans-serif !important; 
+}
+
+h1 {
+    font-size: 2.2rem; 
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+p {
+    line-height: 2; 
+}
+
+.hr {
+    width: 100%; 
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    margin: 2rem 0 1rem 0; 
+}
+
+.resume-nav {
+    padding: 1rem 8rem; 
+}
+
+.contact-info, .prof-profiles {
+    display: flex; 
+    justify-content: flex-end;
+}
+
+.contact-info p, .prof-profiles a {
+    margin-left: 1.5rem; 
+}
+
+.resume-header {
+    padding: 6rem 8rem 1rem 8rem;  
+}
+
+.technical-skills {
+    padding: 0 8rem 1rem 8rem; 
+}
+
+.projects-section {
+    padding: 0 8rem; 
+}
+
+.projects {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.work {
+    padding: 2rem 8rem; 
+}
+
+.job-title {
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.list-item {
+    margin-bottom: 1rem;
+}
+
+.education {
+    padding: 1rem 8rem 8rem 8rem; 
+}
+
+@media (max-width: 992px) {
+    .projects {
+        grid-template-columns: 1fr;
+    }
+}

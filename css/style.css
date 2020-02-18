@@ -77,6 +77,7 @@ body {
   #promo-svg {
     position: relative;
     top: -70px;
+    width: 500px;
   }
 }
 
@@ -468,6 +469,7 @@ a {
 
 /* Projects */ 
 .projects-header {
+  margin-top: 0; 
   text-align:left;
   font-size: 3.074em;
 }
@@ -489,6 +491,45 @@ a {
 .steps {
   text-align: left;
   padding: 16pt 0;
+}
+
+/* Skills */ 
+.skills-image {
+  position:relative;
+  top: 10px;
+  margin-top: 4rem;
+}
+
+#skills {
+  margin-top: 0;
+  background: #f7f7f7;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+/* Codepen */ 
+.codepen-image {
+  position: relative;
+  top: -10px;
+}
+
+/* Contact */ 
+.contact-image {
+  position:relative;
+  top: 55px;
+}
+
+#contact {
+  background:#f7f7f7;
+  position:relative;
+  top: 45px;  
+}
+
+/* Footer */ 
+.footer-image {
+  position:relative;
+  top: 10px;
+  width:100%;
 }
 
 @media (min-width: 992px) {
@@ -624,7 +665,7 @@ a {
 
 
 .footer {
-  padding: 36pt 0; 
+  padding: 10rem 0 5rem 0; 
 }
 
 .footer-inner {
