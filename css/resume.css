@@ -29,7 +29,7 @@ p {
 }
 
 .resume-nav {
-    padding: 1rem 8rem; 
+    padding: 1rem 10rem; 
 }
 
 .contact-info, .prof-profiles {
@@ -42,15 +42,15 @@ p {
 }
 
 .resume-header {
-    padding: 6rem 8rem 1rem 8rem;  
+    padding: 6rem 10rem 1rem 10rem;  
 }
 
 .technical-skills {
-    padding: 0 8rem 1rem 8rem; 
+    padding: 1rem 10rem 1rem 10rem; 
 }
 
 .projects-section {
-    padding: 0 8rem; 
+    padding: 1rem 10rem 0 10rem; 
 }
 
 .projects {
@@ -62,7 +62,7 @@ p {
 }
 
 .work {
-    padding: 2rem 8rem; 
+    padding: 4rem 10rem 2rem 10rem; 
 }
 
 .job-title {
@@ -75,11 +75,20 @@ p {
 }
 
 .education {
-    padding: 1rem 8rem 8rem 8rem; 
+    padding: 1rem 10rem 8rem 10rem; 
 }
 
 @media (max-width: 992px) {
     .projects {
         grid-template-columns: 1fr;
     }
+    .resume-nav {
+        padding-left: 0rem; 
+        padding-right: 2rem; 
+    }
+    .education, .work, .projects-section, .technical-skills, .resume-header {
+        padding-left: 6rem; 
+        padding-right: 6rem;
+    }
+
 }
